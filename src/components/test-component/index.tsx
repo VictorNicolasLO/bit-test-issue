@@ -3,7 +3,7 @@ import Button from '@bit/semantic-org.semantic-ui-react.button';
 function TestComponent() {
   return (
     <div>
-      <Button>Hola</Button>
+      <Button>Hello</Button>
     </div>
   );
 }
