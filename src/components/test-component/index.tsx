@@ -1,10 +1,14 @@
 import React from 'react';
-import Button from '@bit/semantic-org.semantic-ui-react.button';
+import SocialButtons from '@bit/woobydev.components.social-button';
 function TestComponent() {
   return (
-    <div>
-      <Button>Hello</Button>
-    </div>
+    <SocialButtons
+          label="Acceder con github"
+          variant="github"
+          onClick={() => {
+            
+          }}
+        />
   );
 }
 
